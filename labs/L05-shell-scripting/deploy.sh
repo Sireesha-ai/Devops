@@ -12,6 +12,7 @@ fi
 
 bash "$SCRIPT_DIR/test.sh"
 
+bash labs/L05-shell-scripting/test.sh
 mkdir -p "$DESTINATION"
 cp "$ARTIFACT" "$DESTINATION/index.html"
 printf 'Local deployment complete: %s/index.html\n' "$DESTINATION"
